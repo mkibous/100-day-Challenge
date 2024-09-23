@@ -1,5 +1,90 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #F1F1C6;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card {
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.602);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 300px;
+    max-width: 400px;
+    overflow: hidden;
+    margin: 0px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.img {
+    width: 100%;
+    padding-top: 15px;
+    height: 140px;
+    padding-bottom: 100px;
+    background-image: url('profile-card.png');
+    background-size: 100%;
+    background-position: top;
+    justify-content: center;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.profile {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+h2 {
+    letter-spacing: 2px;
+    font-weight: lighter;
+    color: #35312C;
+    margin: 0;
+}
+.mail {
+    color: #908982;
+    font-size: 0.8em;
+    margin-top: 0px;
+}
+.description {
+    color: #35312C;
+    font-size: 0.8em;
+    text-align: center;
+    padding: 20px;
+}
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    padding: 10px;
+}
+.btns{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    padding: 25px;
+}
+.bs{
+    width: 40%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.b1{
+    background-color: #e94399;
+    color: #fff;
+}
+.b2{
+    background-color: #fff;
+    color: #908982;
+    border: 1px solid #908982;
 }
