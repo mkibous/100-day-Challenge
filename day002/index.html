@@ -3,22 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="search" content="day2">
+    <meta name="description" content="day2">
     <title>day2</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <script src="https://kit.fontawesome.com/36dfcc1cb2.js" crossorigin="anonymous"></script>
+    <script src="script.js" async></script>
 </head>
 <body>
     <main>
         <div class="imgs">
-            <img class="im" id="im1" src="https://cybernecard.fr/media/cache/article_rs_big/bp/T-shirt_Malfini_Enfant_royal_Devant_MFF38.jpg" 
-            onclick="change_img('im1', 'im2', 'im3', 'https://cybernecard.fr/media/cache/article_rs_big/bp/T-shirt_Malfini_Enfant_royal_Devant_MFF38.jpg')">
-            <img class="im" id="im2" src="https://cybernecard.fr/media/cache/article_rs_big/bp/T-shirt_Malfini_Enfant_royal_Gauche_MFF38.jpg"
-            onclick="change_img('im2', 'im1', 'im3', 'https://cybernecard.fr/media/cache/article_rs_big/bp/T-shirt_Malfini_Enfant_royal_Gauche_MFF38.jpg')">
-            <img class="im" id="im3" src="https://cybernecard.fr/media/cache/article_rs_big/bp/T-shirt_Malfini_Enfant_royal_Dos_MFF38.jpg"
-            onclick="change_img('im3','im1','im2','https://cybernecard.fr/media/cache/article_rs_big/bp/T-shirt_Malfini_Enfant_royal_Dos_MFF38.jpg')">
+            <img class="im" id="im1" alt="im1" src="Devant.avif" 
+            onclick="change_img('im1', 'im2', 'im3', 'Devant.avif')">
+            <img class="im" alt="im2" id="im2" src="Gauche.avif"
+            onclick="change_img('im2', 'im1', 'im3', 'Gauche.avif')">
+            <img class="im" alt="im3" id="im3" src="Dos.avif"
+            onclick="change_img('im3','im1','im2','Dos.avif')">
         </div>
-        <img id="big_img" src="https://cybernecard.fr/media/cache/article_rs_big/bp/T-shirt_Malfini_Enfant_royal_Devant_MFF38.jpg">
+        <img id="big_img" alt="big_img" src="Devant.avif">
         <aside>
             <p style="color: #44AADD;
             margin: 0;
@@ -30,7 +31,7 @@
                 <p class="reduction">-25%</p>
             </div>
             <del>$132.00</del>
-            <h3>CHOOSE SIZE</h3>
+            <p class="cz">CHOOSE SIZE</p>
             <div style="margin: 20px 0;">
                 <input type="radio" name="size" id="s">
                 <label for="s">S</label>

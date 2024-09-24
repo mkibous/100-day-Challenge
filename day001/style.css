@@ -11,7 +11,7 @@ body {
 .card {
     background-color: #fff;
     border-radius: 40px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.602);
+    box-shadow: 0 0 15px #575757;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,7 +50,7 @@ h2 {
     margin: 0;
 }
 .mail {
-    color: #908982;
+    color: #575757;
     font-size: 0.8em;
     margin-top: 0px;
 }
@@ -81,10 +81,9 @@ h2 {
 }
 .b1{
     background-color: #e94399;
-    color: #fff;
 }
 .b2{
     background-color: #fff;
-    color: #908982;
-    border: 1px solid #908982;
+    color: #575757;
+    border: 1px solid #575757;
 }
