@@ -6,14 +6,45 @@
     <title>day2</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/36dfcc1cb2.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <main>
         <div class="imgs">
-            <img class="im" id="im1" src="https://cybernecard.fr/media/cache/article_rs_big/bp/T-shirt_Malfini_Enfant_royal_Devant_MFF38.jpg">
-            <img class="im" id="im2" src="https://cybernecard.fr/media/cache/article_rs_big/bp/T-shirt_Malfini_Enfant_royal_Gauche_MFF38.jpg">
-            <img class="im" id="im3" src="https://cybernecard.fr/media/cache/article_rs_big/bp/T-shirt_Malfini_Enfant_royal_Dos_MFF38.jpg">
+            <img class="im" id="im1" src="https://cybernecard.fr/media/cache/article_rs_big/bp/T-shirt_Malfini_Enfant_royal_Devant_MFF38.jpg" 
+            onclick="change_img('im1', 'im2', 'im3', 'https://cybernecard.fr/media/cache/article_rs_big/bp/T-shirt_Malfini_Enfant_royal_Devant_MFF38.jpg')">
+            <img class="im" id="im2" src="https://cybernecard.fr/media/cache/article_rs_big/bp/T-shirt_Malfini_Enfant_royal_Gauche_MFF38.jpg"
+            onclick="change_img('im2', 'im1', 'im3', 'https://cybernecard.fr/media/cache/article_rs_big/bp/T-shirt_Malfini_Enfant_royal_Gauche_MFF38.jpg')">
+            <img class="im" id="im3" src="https://cybernecard.fr/media/cache/article_rs_big/bp/T-shirt_Malfini_Enfant_royal_Dos_MFF38.jpg"
+            onclick="change_img('im3','im1','im2','https://cybernecard.fr/media/cache/article_rs_big/bp/T-shirt_Malfini_Enfant_royal_Dos_MFF38.jpg')">
         </div>
+        <img id="big_img" src="https://cybernecard.fr/media/cache/article_rs_big/bp/T-shirt_Malfini_Enfant_royal_Devant_MFF38.jpg">
+        <aside>
+            <p style="color: #44AADD;
+            margin: 0;
+            font-size: 1.5vw;">POLO RALPH</p>
+            <h1>Custom fit polo bear oxford shirt</h1>
+            <p class="description">blue polo with a classic cut. Made of smooth and soft cotton.</p>
+            <div class="price">
+                <h1 class="pr">$99.00</h1>
+                <p class="reduction">-25%</p>
+            </div>
+            <del>$132.00</del>
+            <h3>CHOOSE SIZE</h3>
+            <div style="margin: 20px 0;">
+                <input type="radio" name="size" id="s">
+                <label for="s">S</label>
+                <input type="radio" name="size" id="m">
+                <label for="m">M</label>
+                <input type="radio" name="size" id="l" checked>
+                <label for="l">L</label>
+                <input type="radio" name="size" id="xl">
+                <label for="xl">XL</label>
+                <input type="radio" name="size" id="xxl">
+                <label for="xxl">XXl</label>
+            </div>
+            <button class="bag">ADD TO BAG</button>
+        </aside>
     </main>
 </body>
 </html>
