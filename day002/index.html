@@ -12,18 +12,13 @@
 <body>
     <main>
         <div class="imgs">
-            <img class="im" id="im1" alt="im1" src="Devant.avif" 
-            onclick="change_img('im1', 'im2', 'im3', 'Devant.avif')">
-            <img class="im" alt="im2" id="im2" src="Gauche.avif"
-            onclick="change_img('im2', 'im1', 'im3', 'Gauche.avif')">
-            <img class="im" alt="im3" id="im3" src="Dos.avif"
-            onclick="change_img('im3','im1','im2','Dos.avif')">
+            <img class="im selected"  alt="im1" src="Devant.avif">
+            <img class="im" alt="im2"  src="Gauche.avif">
+            <img class="im" alt="im3"  src="Dos.avif">
         </div>
         <img id="big_img" alt="big_img" src="Devant.avif">
         <aside>
-            <p style="color: #44AADD;
-            margin: 0;
-            font-size: 1.5vw;">POLO RALPH</p>
+            <p class="polo">POLO RALPH</p>
             <h1>Custom fit polo bear oxford shirt</h1>
             <p class="description">blue polo with a classic cut. Made of smooth and soft cotton.</p>
             <div class="price">
@@ -32,7 +27,7 @@
             </div>
             <del>$132.00</del>
             <p class="cz">CHOOSE SIZE</p>
-            <div style="margin: 20px 0;">
+            <div>
                 <input type="radio" name="size" id="s">
                 <label for="s">S</label>
                 <input type="radio" name="size" id="m">

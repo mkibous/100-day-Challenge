@@ -21,10 +21,12 @@ body {
     overflow: hidden;
     margin: 0px;
     cursor: pointer;
+    /* filter: grayscale(100%); */
     transition: 0.5s;
 }
 .card:hover {
     transform: scale(1.05);
+    /* filter: grayscale(0%); */
 }
 .img {
     width: 100%;
