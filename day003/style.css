@@ -85,8 +85,15 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
+    /* position: sticky; */
     margin-top: auto;
+    bottom: 0px;
+    width: 80vw;
+    position: fixed;
+    margin: 5vh 5vw;
+    margin-bottom: 0;
+    padding-bottom: 2.5vh;
+    z-index: 2;
 }
 input[type="radio"]{
     display: none;
