@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(to bottom, #482de3, #490024ea) center, url(https://img.freepik.com/premium-vector/black-white-location-map-city-navigation_97886-12831.jpg);
+    background-repeat: no-repeat;
+    background-color: #000000;
+    background-attachment: fixed;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: "Lato", sans-serif;
+
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    margin: 15vh auto;
+    height: 100%;
+    width: 80%;
+}
+@media (max-width: 800px){
+    main{
+        grid-template-columns: 1fr;
+    }
+    
+}
+@media (min-width: 800px){
+    main{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: black;
+    background: white;
+    border-radius: 10px;
+    padding: 2rem;
+    min-width: 30rem;
+    max-width: 50rem;
+    width: 100%;
+    gap: 2rem;
+}
+h1{
+    font-size: 5rem;
+    font-weight: 500;
+    margin-top: 0;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    max-width: 50rem;
+}
+.revers_triangle{
+    width: 0;
+    height: 0;
+    border-left: 1.5rem solid transparent;
+    border-right: 1.5rem solid transparent;
+    border-top: 3rem solid #fe027a;
+    position: relative;
+    margin: 0 auto;
+}
+.comment{
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+.address{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.position{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #f984dd;
+}
+.location{
+    background-color: #fe027a;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 0;
+    margin-top: 5rem;
+}
+.sercle{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background: #fe027a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+    box-shadow: 0 0 0.4rem 1.2rem  #fe027c3c,
+                0 0 0.3rem 0.6rem #fe027c75;
+}
+.ms{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.choise{
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+.in{
+    padding: 1rem;
+    border: 1px solid #a7a7a7;
+    border-radius: 10px;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+textarea{
+    resize: none;
+}
+button[type="submit"]{
+    background: #fe027a;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    cursor: pointer;
+    margin-top: 4rem;
+}
+input[type="name"]{
+    padding: 1rem;
+    border: 1px solid #a7a7a7;
+    border-radius: 10px;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+.ch{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+input[type="radio"]{
+    margin: 0 1rem 0 2rem;
+    accent-color: purple;
+}
