@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+html{
+    font-size: 62.5%;
+}
+:root{
+    --color-primary: #ffa421;
+    --color-secondary: #ffffff;
+    --color-tertiary: #000000;
+    /* --color-quaternary: #6a2c70;
+    --color-quinary: #1e1f26; */
+    --color-text: #1e1f26;
+    --color-text-light: #f8f9fa;
+    --text-bigger-size: 5rem;
+    --text-big-size: 2.4rem;
+    --text-medium-size: 1.8rem;
+    --text-normal-size: 1.6rem;
+    --text-small-size: 1.4rem;
+    --text-smaller-size: 1.2rem;
+    --text-smallest-size: 1rem;
+    --text-bigger-weight: 700;
+    --text-big-weight: 600;
+    --text-medium-weight: 500;
+    --text-normal-weight: 400;
+    --text-small-weight: 300;
+    --text-smaller-weight: 200;
+}
+body{
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    color: var(--color-text);
+    position: relative;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+section{
+    flex: 1;
+    /* max-width: 70rem; */
+}
+.cofee-img{
+    width: 100%;
+    object-fit: cover;
+    height: 100vh;
+}
+aside{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 35rem;
+    padding: 0 5rem;
+}
+.left_description{
+    background-color: var(--color-tertiary);
+    color: var(--color-text-light);
+    font-size: var(--text-medium-size);
+    padding: 2rem;
+    max-width: 23rem;
+    position: absolute;
+    bottom: 2rem;
+}
+.coffe-attributes{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.attributes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.icon{
+    margin-right: 1rem;
+    font-size: 3rem;
+    opacity: 0.6;
+}
+.attributes-name{
+    font-size: var(--text-smaller-size);
+    font-weight: var(--text-normal-weight);
+    margin: 0;
+}
+.attributes-info{
+    font-size: var(--text-smaller-size);
+    font-weight: var(--text-medium-weight);
+    color: var(--color-primary);
+    margin: 0;
+}
+@media (max-width: 850px){
+    main{
+        flex-direction: column;
+    }
+    aside{
+        margin-top: 3rem;
+    }
+}
+header{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 5rem;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    left: 30vw;
+    top: 5vh;
+    min-width: 40vw;
+    min-height: 10vh;
+}
+.stars{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.6rem;
+}
+.star{
+    font-size: 2rem;
+    color: var(--color-primary);
+    margin-right: 1rem;
+}
+.rates{
+    font-size: var(--text-small-size);
+    font-weight: var(--text-medium-weight);
+}
+.title{
+    font-size: var(--text-bigger-size);
+    font-weight: var(--text-bigger-weight);
+    max-width: 58rem;
+}
+ol{
+    padding: 1rem;
+    margin: 0;
+}
+.description{
+    font-size: var(--text-normal-size);
+    font-weight: var(--text-normal-weight);
+    font-style: italic;
+    margin-bottom: 3rem;
+}
+.ingredient{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+}
+label{
+    display: flex;
+    font-size: var(--text-small-size);
+    font-weight: var(--text-normal-weight);
+    align-items: center;
+    gap: 1rem;
+}
+input[type="checkbox"]{
+    accent-color: #cc841f;
+}
+li{
+    font-size: var(--text-normal-size);
+    font-weight: var(--text-small-weight);
+    margin-bottom: 1rem;
+}
