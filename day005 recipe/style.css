@@ -4,7 +4,7 @@ html{
     font-size: 62.5%;
 }
 :root{
-    --color-primary: #ffa421;
+    --color-primary: #cc841f;
     --color-secondary: #ffffff;
     --color-tertiary: #000000;
     /* --color-quaternary: #6a2c70;
@@ -28,11 +28,14 @@ html{
 body{
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
+    color: var(--color-text);
     margin: 0;
     padding: 0;
     height: 100vh;
     color: var(--color-text);
     position: relative;
+    background-color: var(--color-secondary);
+    transition: 0.3s;
 }
 main{
     display: flex;
@@ -56,8 +59,8 @@ aside{
     padding: 0 5rem;
 }
 .left_description{
-    background-color: var(--color-tertiary);
-    color: var(--color-text-light);
+    background-color: black;
+    color: white;
     font-size: var(--text-medium-size);
     padding: 2rem;
     max-width: 23rem;
@@ -90,24 +93,17 @@ aside{
     color: var(--color-primary);
     margin: 0;
 }
-@media (max-width: 850px){
-    main{
-        flex-direction: column;
-    }
-    aside{
-        margin-top: 3rem;
-    }
-}
 header{
     display: flex;
     flex-direction: column;
     padding: 2rem 5rem;
     position: absolute;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--color-secondary);
     left: 30vw;
     top: 5vh;
     min-width: 40vw;
     min-height: 10vh;
+    transition: 0.3s;
 }
 .stars{
     display: flex;
@@ -153,10 +149,45 @@ label{
     gap: 1rem;
 }
 input[type="checkbox"]{
-    accent-color: #cc841f;
+    accent-color: var(--color-primary);
 }
 li{
     font-size: var(--text-normal-size);
     font-weight: var(--text-small-weight);
     margin-bottom: 1rem;
+}
+@media (max-width: 850px){
+    main{
+        flex-direction: column;
+    }
+    aside{
+        margin-top: 3rem;
+    }
+    .title{
+        font-size: var(--text-big-size);
+    }
+}
+.md{
+    font-size: 30px;
+}
+.mood{
+    display: flex;
+    position: absolute;
+    top: 2vh;
+    left: 2vw;
+    z-index: 1;
+    border-radius: 50%;
+    color: var(--color-primary);
+    box-shadow: 0 0 1rem 0.1rem #909090;
+    background-color: rgba(255, 255, 255, 0.541);
+    padding: 1rem;
+    cursor: pointer;
+}
+.ph-sun{
+    display: none;
+    transition: 0.3s;
+}
+.ph-moon{
+    display: block;
+    transition: 0.3s;
 }
