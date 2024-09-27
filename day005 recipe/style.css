@@ -35,7 +35,6 @@ body{
     color: var(--color-text);
     position: relative;
     background-color: var(--color-secondary);
-    transition: 0.3s;
 }
 main{
     display: flex;
@@ -103,7 +102,6 @@ header{
     top: 5vh;
     min-width: 40vw;
     min-height: 10vh;
-    transition: 0.3s;
 }
 .stars{
     display: flex;
@@ -175,6 +173,7 @@ li{
     position: absolute;
     top: 2vh;
     left: 2vw;
+    margin-left: 2rem;
     z-index: 1;
     border-radius: 50%;
     color: var(--color-primary);
@@ -185,9 +184,7 @@ li{
 }
 .ph-sun{
     display: none;
-    transition: 0.3s;
 }
 .ph-moon{
     display: block;
-    transition: 0.3s;
 }
