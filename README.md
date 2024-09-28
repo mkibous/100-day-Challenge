@@ -1,20 +1,20 @@
 
     Challenges Description:
-      Goal: Recreate a web page from a design mockup (image format) as closely as possible.
+        Goal: Recreate a web page from a design mockup (image format) as closely as possible.
 
-    Tools: HTML, CSS (including Flexbox, Grid, and media queries for responsiveness), and JavaScript when interactivity is needed.
+        Tools: HTML, CSS (including Flexbox, Grid, and media queries for responsiveness), and JavaScript when interactivity is needed.
 
     Skill Focus:
   
-    Attention to detail: Ensure the design matches the mockup as closely as possible (pixel-perfect).
+        Attention to detail: Ensure the design matches the mockup as closely as possible (pixel-perfect).
     
-    Translating visuals into code: Convert static designs into dynamic, functional web pages.
+        Translating visuals into code: Convert static designs into dynamic, functional web pages.
 
-    Pixel-perfect design: Match the layout, typography, colors, and spacing exactly.
+        Pixel-perfect design: Match the layout, typography, colors, and spacing exactly.
     
-    Responsiveness: Use media queries to make sure the design adapts to different screen sizes.
+        Responsiveness: Use media queries to make sure the design adapts to different screen sizes.
     
-    Each day, you'll be given a static image of a web page design, and your task is to translate that design into a functional, responsive web page using the tools and techniques above.
+        Each day, you'll be given a static image of a web page design, and your task is to translate that design into a functional, responsive web page using the tools and techniques above.
 
 day01 ✅:https://mkibous.github.io/100-day-Challenge/day001%20profile%20card/index.html
 
