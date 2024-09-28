@@ -25,9 +25,35 @@ day01 ✅:https://mkibous.github.io/100-day-Challenge/day001%20profile%20card/in
 
 day02 ✅:https://mkibous.github.io/100-day-Challenge/day002%20add%20to%20bag/index.html
 
+            E-commerce Product Page
+
+                This project is an e-commerce product page featuring a custom-fit polo shirt from Polo Ralph. It includes an image gallery with 
+                multiple views of the product, a clear display of the product name, description, and pricing, highlighting a discount from $132.00 to 
+                $99.00.
+                
+                Users can select their size using radio buttons (S, M, L, XL, XXL) and click the "ADD TO BAG" button to engage with the shopping 
+                experience. The page is built with HTML and can be styled with CSS for a polished look, while JavaScript is utilized for interactivity, 
+                such as changing the main image based on user selection.
+
 day03 ✅:https://mkibous.github.io/100-day-Challenge/day003%20mobile%20navigation/index.html
 
+         Mobile Navigation Interface
+         
+             This project is a mobile navigation interface that features a header with a profile picture and user information, providing a personalized 
+             touch.
+             The main navigation includes links for Personal Data, Messages, Notifications, Location, and Community, each with icons for easy 
+             recognition. A sidebar offers quick access to FAQs and Settings.
+
+             At the bottom, a footer navigation allows users to switch between key sections (Home, Trends, Messages, User Profile) using intuitive icon 
+             buttons. The layout is built with HTML and can be styled with CSS for a responsive, user-friendly experience.
+
 day04 ✅: https://mkibous.github.io/100-day-Challenge/day004%20contact%20us/index.html
+
+        Contact Us Page
+            This project is a "Contact Us" page designed to facilitate communication between users and the organization. It features a welcoming 
+            header and a brief message inviting users to reach out.
+            The page includes two locations listed for contact, enhancing user clarity. An aside section contains a form where users can submit their               name, email, phone number, and preferred contact method (email or phone). A textarea is provided for users to write their message.
+            The layout is structured with HTML and can be styled with CSS to create an inviting and user-friendly experience for potential inquiries.
 
 day05 ✅: https://mkibous.github.io/100-day-Challenge/day005%20recipe/index.html
 
