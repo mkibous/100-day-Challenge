@@ -32,9 +32,9 @@ body{
     margin: 0 6rem;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
     border-radius: 1rem;
-    transition: background-image 0.3s;
+    transition: 0.3s;
 }
 main{
     display: flex;
