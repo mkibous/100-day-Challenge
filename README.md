@@ -1,4 +1,4 @@
-[https://app.bigdevsoon.me/challenges](https://app.bigdevsoon.me/profile/mkibous)
+
 Challenges Description:
   Goal: Recreate a web page from a design mockup (image format) as closely as possible.
 
