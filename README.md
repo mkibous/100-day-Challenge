@@ -5,7 +5,6 @@ Challenges Description:
   Tools: HTML, CSS (including Flexbox, Grid, and media queries for responsiveness), and JavaScript when interactivity is needed.
 
   Skill Focus:
-
     Attention to detail: Ensure the design matches the mockup as closely as possible (pixel-perfect).
     Translating visuals into code: Convert static designs into dynamic, functional web pages.
     Pixel-perfect design: Match the layout, typography, colors, and spacing exactly.
