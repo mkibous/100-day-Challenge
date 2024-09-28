@@ -16,8 +16,14 @@ day01 ✅:https://mkibous.github.io/100-day-Challenge/day001%20profile%20card/in
 
         Profile Card Web Page:
         
-            This project is a sleek profile card web page showcasing user information in a visually appealing format. It features a circular profile                image, the user's name, email handle, and a brief description of their interests and background as a web developer.
-            Social media icons for platforms like LinkedIn, Instagram, and GitHub are included for easy connectivity. Two call-to-action buttons                    ("Follow" and "Message") encourage user interaction. The card is built using HTML and can be styled with CSS for a polished look, while                 JavaScript enhances functionality for social media links. This project serves as a practical exercise in front-end development,                         emphasizing design, responsiveness, and user engagement.
+            This project is a sleek profile card web page showcasing user information in a visually appealing format. It features a circular profile
+            
+            image, the user's name, email handle, and a brief description of their interests and background as a web developer.
+            
+            Social media icons for platforms like LinkedIn, Instagram, and GitHub are included for easy connectivity. Two call-to-action buttons                    
+            ("Follow" and "Message") encourage user interaction. The card is built using HTML and can be styled with CSS for a polished look, while                 
+            JavaScript enhances functionality for social media links. This project serves as a practical exercise in front-end development,                         
+            emphasizing design, responsiveness, and user engagement.
 
 day02 ✅:https://mkibous.github.io/100-day-Challenge/day002%20add%20to%20bag/index.html
 
