@@ -10,6 +10,7 @@ day03 ✅
 day04 ✅
 
 day05 ✅: https://mkibous.github.io/100-day-Challenge/day005%20recipe/index.html
+
 Recipe Page Project:
 
 This project is a beautifully designed, user-friendly web page that showcases a recipe for Sweet Iced Coffee with Coconut Milk. The layout is responsive, ensuring seamless viewing across various devices. The page features engaging elements such as star ratings, icons, and checkable ingredient lists for interactive user experience.
