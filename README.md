@@ -26,24 +26,24 @@ day04 ✅: https://mkibous.github.io/100-day-Challenge/day004%20contact%20us/ind
 
 day05 ✅: https://mkibous.github.io/100-day-Challenge/day005%20recipe/index.html
 
-Recipe Page Project:
+    Recipe Page Project:
 
-This project is a beautifully designed, user-friendly web page that showcases a recipe for Sweet Iced Coffee with Coconut Milk. The layout is responsive, ensuring seamless viewing across various devices. The page features engaging elements such as star ratings, icons, and checkable ingredient lists for interactive user experience.
+    This project is a beautifully designed, user-friendly web page that showcases a recipe for Sweet Iced Coffee with Coconut Milk. The layout is responsive, ensuring seamless viewing across various devices. The       page features engaging elements such as star ratings, icons, and checkable ingredient lists for interactive user experience.
 
-The recipe section provides all essential information, including total preparation time, difficulty level, and budget, with sleek icons representing each attribute. The ingredients are listed with checkboxes, allowing users to mark them off as they prepare the recipe. Additionally, the instructions are presented step-by-step, making the recipe easy to follow.
+    The recipe section provides all essential information, including total preparation time, difficulty level, and budget, with sleek icons representing each attribute. The ingredients are listed with checkboxes,     allowing users to mark them off as they prepare the recipe. Additionally, the instructions are presented step-by-step, making the recipe easy to follow.
 
-The page also includes a light and dark mode toggle for comfortable viewing in different lighting conditions. Users can switch between modes by clicking on the sun/moon icon, enhancing both functionality and aesthetic appeal.
+    The page also includes a light and dark mode toggle for comfortable viewing in different lighting conditions. Users can switch between modes by clicking on the sun/moon icon, enhancing both functionality and     aesthetic appeal.
 
-Key Features:
+    Key Features:
 
-Responsive design for all devices
-Interactive checkboxes for ingredients
-Step-by-step instructions
-Light/Dark mode toggle
-Icon-based representation of total time, difficulty level, and budget
-Engaging star rating system
-Eye-catching imagery with a professional look and feel
-This project is ideal for showcasing recipes or other food-related content in an appealing and interactive manner
+      Responsive design for all devices
+      Interactive checkboxes for ingredients
+      Step-by-step instructions
+      Light/Dark mode toggle
+      Icon-based representation of total time, difficulty level, and budget
+      Engaging star rating system
+      Eye-catching imagery with a professional look and feel
+      This project is ideal for showcasing recipes or other food-related content in an appealing and interactive manner
 
 day 06 ✅:  https://mkibous.github.io/100-day-Challenge/day006-image-carousel/index.html
 
