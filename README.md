@@ -1,13 +1,13 @@
 [https://app.bigdevsoon.me/challenges](https://app.bigdevsoon.me/profile/mkibous)
 
 
-day01 ✅
+day01 ✅:https://mkibous.github.io/100-day-Challenge/day001%20profile%20card/index.html
 
-day02 ✅
+day02 ✅:https://mkibous.github.io/100-day-Challenge/day002%20add%20to%20bag/index.html
 
-day03 ✅
+day03 ✅:https://mkibous.github.io/100-day-Challenge/day003%20mobile%20navigation/index.html
 
-day04 ✅
+day04 ✅: https://mkibous.github.io/100-day-Challenge/day004%20contact%20us/index.html
 
 day05 ✅: https://mkibous.github.io/100-day-Challenge/day005%20recipe/index.html
 
