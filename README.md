@@ -1,10 +1,10 @@
 
-Challenges Description:
-  Goal: Recreate a web page from a design mockup (image format) as closely as possible.
+    Challenges Description:
+      Goal: Recreate a web page from a design mockup (image format) as closely as possible.
 
-  Tools: HTML, CSS (including Flexbox, Grid, and media queries for responsiveness), and JavaScript when interactivity is needed.
+    Tools: HTML, CSS (including Flexbox, Grid, and media queries for responsiveness), and JavaScript when interactivity is needed.
 
-  Skill Focus:
+    Skill Focus:
   
     Attention to detail: Ensure the design matches the mockup as closely as possible (pixel-perfect).
     
