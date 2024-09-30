@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="creat account" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script src="scpript.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <form>
+        <p class="opacity">START FOR FREE</p>
+        <h1>Creat new account</h1>
+        <div class="f-l-name">
+          <label for="first-name">
+            <span class="name">First Name</span>
+            <input type="text" id="first-name" name="first-name" />
+            <i class="ph ph-identification-card"></i>
+          </label>
+          <label for="last-name">
+            <span class="name">Last Name</span>
+            <input type="text" id="last-name" name="last-name" />
+            <i class="ph ph-identification-card"></i>
+          </label>
+        </div>
+        <label for="email">
+          <span class="name">Email</span>
+          <input type="email" id="email" name="email" />
+          <i class="ph ph-envelope-simple"></i>
+        </label>
+        <label for="password">
+          <span class="name">Password</span>
+          <input type="password" id="password" name="password" />
+          <i class="ph ph-eye-slash eye" onclick="changetype()"></i>
+        </label>
+        <p class="opacity" >Already have an account? <a id="link" href="#">Sign in</a></p>
+        <button type="submit">Creat Account</button>
+      </form>
+    </main>
+  </body>
+</html>
