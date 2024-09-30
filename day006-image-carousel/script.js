@@ -9,27 +9,30 @@ var imgs = [
     'https://images.pexels.com/photos/1797100/pexels-photo-1797100.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     'https://images.pexels.com/photos/5409363/pexels-photo-5409363.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
 ]
+
 var med = 4;
 function putImages() {
 let img = document.querySelector('.pic_holder');
 let b_imgs = document.querySelectorAll('.foot_img');
-    img.style.backgroundImage = `url(${imgs[4]})`;
-    for (let i = 0; i < b_imgs.length; i++) {
-        b_imgs[i].style.backgroundImage = `url(${imgs[i]})`;
-        b_imgs[i].onclick = function() {
-            let t = i;
-            while (i != med) {
-                if (i < med) {
+    img.style.backgroundImage = `url(${imgs[4 % imgs.length]})`;
+    for (let j = 0; j < 8; j++) {
+        i = j % imgs.length;
+        b_imgs[j].style.backgroundImage = `url(${imgs[i]})`;
+        b_imgs[j].onclick = function() {
+            let t = j;
+            while (j != med) {
+                if (j < med) {
                     left_push(t);
-                    i++;
+                    j++;
                 }
                 else {
                     right_push(t);
-                    i--;
-                    i = (i + 8) % 8;
+                    j--;
+                    j = (j + 8) % 8;
                 }
             }
         }
+        i++;
     }
 }
 function right_push(t){
@@ -53,7 +56,7 @@ function right_push(t){
             sel.style.transform = 'scale(1.5)';
             sel.style.boxShadow = '0 0 1rem 0.5rem #9d9d9d';
             sel.style.margin = '0 7rem';
-        }, 1700);
+        }, 1200);
     }, 500);
     resetinterval();
 }
@@ -78,7 +81,7 @@ function left_push(t){
             sel.style.transform = 'scale(1.5)';
             sel.style.boxShadow = '0 0 1rem 0.5rem #9d9d9d';
             sel.style.margin = '0 7rem';
-        }, 1700);
+        }, 1000);
     }, 500);
     resetinterval();
 }
@@ -96,7 +99,7 @@ function animations(element, position){
             transform: "translateX(0rem)"
         }
     ],{				 
-        duration: 1000,
+        duration: 500,
         easing: 'linear',
         delay: 0,
         iterations: 1,
