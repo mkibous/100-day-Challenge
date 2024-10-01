@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+html{
+    font-size: 62.5%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #ecf2ff;
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    margin: 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    margin-top: 5rem;
+}
+.card{
+    display: grid;
+    grid-template-columns: 1fr 6fr 2fr;
+    background-color: white;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 1rem;
+}
+.time{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+    justify-self: center;
+    gap: 1rem;
+    padding: 2rem 0;
+    width: 70%;
+}
+.day{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 0;
+}
+.heure{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+.title{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.description{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.position{
+    font-size: 1.6rem;
+    margin : 0;
+    margin-bottom: 2rem;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+}
+.ticket{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0 2rem;
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    height: 40%;
+    align-self: center;
+    margin: 5rem;
+    border: 0;
+}
+.t0{
+    background-color: #f7dad4;
+}
+.t1{
+    background-color: #edf8d5;
+}
+.t2{
+    background-color: #d0e8f7;
+}
+.t3{
+    background-color: #e2d2f6;
+}
+.sold{
+    background-color: white;
+    color: black;
+}
+@media (max-width: 1050px){
+    html{
+        font-size: 50%;
+    }
+
+}
+@media (max-width: 950px){
+    html{
+        font-size: 40%;
+    }
+}
+@media (max-width: 550px){
+    .card{
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    main{
+        margin: 2rem;
+    }
+    .info{
+        margin: 1rem;
+        gap: 1rem;
+    }
+}
