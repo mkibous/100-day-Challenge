@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>Generate a password </h1>
+        <p class="secondary">GENERATED PASSWORD</p>
+        <div class="container password-container">
+            <output class="password"></output>
+            <div style="position: relative;">
+                <div class="copy" id="copy">Copied!</div>
+                <i class="ph ph-copy-simple" onclick="copy()"></i>
+                <i class="ph ph-arrows-clockwise" onclick="generate()"></i>
+            </div>
+        </div>
+        <div class="len">
+            <p class="secondary">CHARACTERS LENGTH:</p>
+            <output class="length-display">12</output>
+        </div>
+        <div class="container">
+            <output class="length-display val">12</output>
+            <form class="range" oninput="change_len()">
+                <input id="length" type="range" min="8" max="32" value="12" class="length">
+            </form>
+            <p class="val">32</p>
+        </div>
+        <p class="secondary">SETTINGS</p>
+        <div class="setting container">
+            <p>Include uppercase letters</p>
+            <label class="switch" for="uppercase">
+                <input type="checkbox" id="uppercase" class="uppercase" checked>
+                <span class="round"></span>
+            </label>
+        </div>
+        <div class="setting container">
+            <p>Include lowercase letters</p>
+            <label class="switch" for="lowercase">
+                <input type="checkbox" id="lowercase" class="lowercase" checked>
+                <span class="round"></span>
+            </label>
+        </div>
+        <div class="setting container">
+            <p>Include numbers</p>
+            <label class="switch" for="numbers">
+                <input type="checkbox" id="numbers" class="numbers" checked>
+                <span class="round"></span>
+            </label>
+        </div>
+        <div class="setting container">
+            <p>Include symbols</p>
+            <label class="switch" for="symbols">
+                <input type="checkbox" id="symbols" class="symbols">
+                <span class="round"></span>
+            </label>
+        </div>
+        <button onclick="generate()">Generate Password</button>
+    </main>
+</body>
+</html>

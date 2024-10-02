@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+html{
+    font-size: 62.5%;
+}
+:root{
+    --primary: #cf5fff;
+    --secondary: #26173c;
+    --font-color: #fff;
+    --font-color-secondary: #6a6673;
+    --font-color-tertiary: #e6ceff;
+    --backgoround-color: #090212;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main{
+    background-color: var(--backgoround-color);
+    color: var(--font-color);
+    padding: 2rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    min-width: 40rem;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 4rem;
+}
+.secondary{
+    color: var(--font-color-secondary);
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secondary);
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--font-color-tertiary);
+}
+.password-container{
+    display: flex;
+    position: relative;
+}
+.ph{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-right: 1rem;
+    color: var(--primary);
+    cursor: pointer;
+}
+.len{
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--primary);
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+range-display{
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--primary);
+}
+.val{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0;
+}
+input{
+    accent-color: var(--primary);
+}
+input[type="range"]{
+    width: 100%;
+}
+.range{
+    width: 80%;
+}
+.switch{
+    position: relative;
+    background-color: var(--primary);
+    width: 4.5rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    filter: grayscale(0.6);
+    opacity: 0.6;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.switch input[type="checkbox"]{
+    display: none;
+}
+.round{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0.2rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--font-color);
+    border-radius: 50%;
+    transition: 0.3s;
+}
+input[type="checkbox"]:checked + .round{
+    left: 2.3rem;
+}
+.switch:has(input[type="checkbox"]:checked) {
+    filter: grayscale(0);
+    opacity: 1;
+  }
+button{
+    background-color: var(--primary);
+    color: var(--font-color);
+    padding: 1.5rem 2rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 4rem;
+    cursor: pointer;
+}
+.copy{
+    position: absolute;
+    top: -3.5rem;
+    left: -2rem;
+    color: var(--primary);
+    background-color: rgba(255, 255, 255, 0.258);
+    border-radius: 0.3rem;
+    padding: 0.5rem 1rem;
+    opacity: 0;
+    transition: 0.3s;
+}
+@media (max-width: 470px)
+{
+    html{
+        font-size: 50%;
+    }
+    main{
+        max-width: none;
+        width: 100%;
+        height: 100vh;
+        border-radius: 0;
+    }
+}
