@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+html{
+    font-size: 62.5%;
+}
+:root{
+    --primary: #26334c;
+    --secondary: #1f40c4;
+    --font-color: #040405;
+    --font-color-secondary: #eefafb;
+    --font-color-tertiary: #e0e0e0;
+    --font-color-quaternary: #8b8b8b;
+    --backgoround-color: #ffffff;
+    --body-color: #E6E7F0;
+}
+body{
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    color: var(--font-color);
+    background-color: var(--body-color);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: self-start;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+section , aside{
+    width: 40%;
+    max-width: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 20vh;
+    background-color: var(--backgoround-color);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.315);
+}
+h1{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.input-container{
+    position: relative;
+    display: flex;
+}
+.name{
+    position: absolute;
+    top: -0.8rem;
+    left: 1rem;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: var(--secondary);
+    padding: 0 0.5rem;
+    background-color: var(--backgoround-color);
+    display: none;
+    transition: 0.3s;
+}
+.input-container, .line{
+    width: 100%;
+}
+.box, .primary{
+    width: 100%;
+    border: 1px solid var(--font-color-tertiary);
+    border-radius: 0.5rem;
+    background-color: var(--backgoround-color);
+    height: 4rem;
+}
+button{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.primary{
+    background-color: var(--primary);
+    color: var(--font-color-secondary);
+    font-weight: 500;
+}
+a
+{
+    text-decoration: none;
+    color: var(--secondary);
+}
+input:focus {
+    border-color: var(--secondary);
+}
+.name:has(+input:focus){
+    display: block;
+}
+.line{
+    position: relative;
+}
+hr{
+    border: none;
+    border-bottom : 1px solid var(--font-color-tertiary);
+    margin: 0;
+    margin-bottom: 1rem;
+}
+.or{
+    position: absolute;
+    top: -2.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--backgoround-color);
+    padding: 0 1rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: var(--font-color-quaternary)
+}
+.eye{
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: var(--font-color-quaternary);
+}
+#password{
+    padding-right: 3rem;
+}
+.ph-envelope-simple{
+    font-size: 1.8rem;
+}
+@media (max-width: 760px){
+    body{
+        flex-direction: column;
+        align-items: center;
+    }
+    section, aside{
+        width: 80%;
+        margin-top: 2rem;
+    }
+}
