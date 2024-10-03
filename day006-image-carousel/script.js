@@ -56,8 +56,8 @@ function right_push(t){
             sel.style.transform = 'scale(1.5)';
             sel.style.boxShadow = '0 0 1rem 0.5rem #9d9d9d';
             sel.style.margin = '0 7rem';
-        }, 1200);
-    }, 500);
+        }, 800);
+    }, 300);
     resetinterval();
 }
 function left_push(t){
@@ -81,8 +81,8 @@ function left_push(t){
             sel.style.transform = 'scale(1.5)';
             sel.style.boxShadow = '0 0 1rem 0.5rem #9d9d9d';
             sel.style.margin = '0 7rem';
-        }, 1000);
-    }, 500);
+        }, 800);
+    }, 300);
     resetinterval();
 }
 function animations(element, position){
@@ -99,7 +99,7 @@ function animations(element, position){
             transform: "translateX(0rem)"
         }
     ],{				 
-        duration: 500,
+        duration: 300,
         easing: 'linear',
         delay: 0,
         iterations: 1,

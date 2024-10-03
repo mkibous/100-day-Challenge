@@ -121,8 +121,12 @@ hr{
     cursor: pointer;
     color: var(--font-color-quaternary);
 }
+input{
+    padding-left: 1rem;
+}
 #password{
     padding-right: 3rem;
+    letter-spacing: 0.1rem;
 }
 .ph-envelope-simple{
     font-size: 1.8rem;
