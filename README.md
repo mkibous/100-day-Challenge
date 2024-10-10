@@ -27,14 +27,14 @@ day05 ✅: https://mkibous.github.io/100-day-Challenge/day005%20recipe/index.htm
 
 day06 ✅: https://mkibous.github.io/100-day-Challenge/day006-image-carousel/index.html
 
-day07 ✅: https://mkibous.github.io/100-day-Challenge/day007%creat%account/index.html
+day07 ✅: https://mkibous.github.io/100-day-Challenge/day007%20creat%20account/index.html
 
-day08 ✅: https://mkibous.github.io/100-day-Challenge/day008%event/index.html
+day08 ✅: https://mkibous.github.io/100-day-Challenge/day008%20event/index.html
 
-day09 ✅: https://mkibous.github.io/100-day-Challenge/day009%password%generator/index.html
+day09 ✅: https://mkibous.github.io/100-day-Challenge/day009%20password%20generator/index.html
 
-day10 ✅: https://mkibous.github.io/100-day-Challenge/day010%sign%Up%page/index.html
+day10 ✅: https://mkibous.github.io/100-day-Challenge/day010%20sign%20Up%20page/index.html
 
-day11 ✅: https://mkibous.github.io/100-day-Challenge/day011%hotel%booking/index.html
+day11 ✅: https://mkibous.github.io/100-day-Challenge/day011%20hotel%20booking/index.html
 
-day12 ✅: https://mkibous.github.io/100-day-Challenge/day012%restaurant/index.html
+day12 ✅: https://mkibous.github.io/100-day-Challenge/day012%20restaurant/index.html
