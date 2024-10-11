@@ -41,7 +41,6 @@ document.addEventListener('keydown', function(event) {
             total++;
             output.textContent = `${completed}/${total}`;
         }
-        console.log('You pressed Enter');
     }
 });
 document.addEventListener('click', function(event) {
