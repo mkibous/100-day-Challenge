@@ -38,3 +38,5 @@ day10 ✅: https://mkibous.github.io/100-day-Challenge/day010%20sign%20Up%20page
 day11 ✅: https://mkibous.github.io/100-day-Challenge/day011%20hotel%20booking/index.html
 
 day12 ✅: https://mkibous.github.io/100-day-Challenge/day012%20restaurant/index.html
+
+day13 ✅: https://mkibous.github.io/100-day-Challenge/day013%20task%20board/index.html
