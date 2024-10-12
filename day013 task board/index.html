@@ -19,11 +19,75 @@
       <aside
         class="grid grid-cols-4 gap-6 max-xl:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1"
       >
-        <div class="flex flex-col gap-5">
+        <div class="flex overflow-hidden flex-col gap-5">
           <p class="font-semibold text-xl mt-10">
-            To Do <span class="font-normal mx-2 opacity-35">+</span>
+            To Do
+            <span
+              class="peer font-normal mx-2 opacity-35 cursor-pointer"
+              onclick="displayForm()"
+              >+</span
+            >
           </p>
-          <div class="bg-white p-4 rounded-2xl shadow-lg grid gap-y-5">
+          <div
+            id="form"
+            class="todo bg-white p-4 rounded-2xl transition-all hidden shadow-lg gap-y-5"
+          >
+            <form action="" class="flex flex-col gap-4">
+              <div class="flex items-center gap-4 ">
+                <span class="w-32">Dificult:</span>
+                <select
+                  name="dificult"
+                  id="dificult"
+                  class="w-full border px-5 flex border-gray-400 rounded-full h-10"
+                >
+                  <option value="low">Low</option>
+                  <option value="medium">Medium</option>
+                  <option value="high">High</option>
+                </select>
+              </div>
+              <p class="flex items-center gap-4 w-full">
+                <span class="w-32">Date:</span>
+                <input
+                  type="date"
+                  name="date"
+                  id="date"
+                  class="w-full border px-5 flex border-gray-400 rounded-full justify-between items-center h-10"
+                />
+              </p>
+              <div class="flex items-center gap-4 align-center">
+                <span class="w-32">bakground:</span>
+                <input type="file" name="file" id="file" />
+              </div>
+              <div class="flex items-center gap-4 align-center">
+                <span class="w-32"> Title:</span>
+                <input
+                  type="text"
+                  name="title"
+                  id="title"
+                  class="w-full border px-5 flex border-gray-400 rounded-full h-10"
+                />
+              </div>
+              <div class="flex items-center gap-4 align-center">
+                <span class="w-32"> Description:</span>
+              <input
+                type="text"
+                name="description"
+                id="description"
+                class="w-full border px-5 flex border-gray-400 rounded-full h-10"
+              /></div>
+              <div class="flex items-center gap-4 align-center">
+                <span class="w-32"> Users:</span>
+                <input type="file" name="users" id="users" />
+              </div>
+              <button
+                type="submit"
+                class="bg-[#000000] text-white w-full border px-5 flex border-gray-400 rounded-full items-center justify-center h-10"
+              >
+                Add
+              </button>
+            </form>
+          </div>
+          <div class="todo bg-white p-4 rounded-2xl shadow-lg grid gap-y-5">
             <p class="flex justify-between">
               <span class="dificult bg-red-600 rounded-lg text-white px-2"
                 >HIGH</span
@@ -43,7 +107,33 @@
                 class="-ml-5 z-10 border border-white h-14 w-14 rounded-full bg-[url('imgs/users/im0.jpg')] bg-cover bg-center"
               ></div>
               <div
-                class="-ml-5 flex items-center justify-center border text-3xl font-normal mx-2 border-gray-500 h-12 w-12 rounded-full border-dashed"
+                class="-ml-5 flex items-center justify-center border text-3xl font-normal mx-2 border-gray-500 h-14 w-14 rounded-full border-dashed"
+              >
+                +
+              </div>
+            </div>
+          </div>
+          <div class="todo bg-white p-4 rounded-2xl shadow-lg grid gap-y-5">
+            <p class="flex justify-between">
+              <span class="dificult bg-red-600 rounded-lg text-white px-2"
+                >HIGH</span
+              ><span>2/15/24</span>
+            </p>
+            <img src="imgs/bgs/rose-729509_1280.jpg" alt="" />
+            <h2 class="font-semibold text-xl">Update Website Homepage</h2>
+            <p class="opacity-70">
+              Revise the content and layout of the homepage to highlight new
+              features and improve user engagement.
+            </p>
+            <div class="flex">
+              <div
+                class="z-10 border border-white h-14 w-14 rounded-full bg-[url('imgs/users/im1.jpg')] bg-cover bg-center"
+              ></div>
+              <div
+                class="-ml-5 z-10 border border-white h-14 w-14 rounded-full bg-[url('imgs/users/im0.jpg')] bg-cover bg-center"
+              ></div>
+              <div
+                class="-ml-5 flex items-center justify-center border text-3xl font-normal mx-2 border-gray-500 h-14 w-14 rounded-full border-dashed"
               >
                 +
               </div>
@@ -71,7 +161,7 @@
                 class="z-10 border border-white h-14 w-14 rounded-full bg-[url('imgs/users/im2.jpg')] bg-cover bg-center"
               ></div>
               <div
-                class="-ml-5 flex items-center justify-center border text-3xl font-normal mx-2 border-gray-500 h-12 w-12 rounded-full border-dashed"
+                class="-ml-5 flex items-center justify-center border text-3xl font-normal mx-2 border-gray-500 h-14 w-14 rounded-full border-dashed"
               >
                 +
               </div>
@@ -98,7 +188,7 @@
                 class="-ml-5 z-10 border border-white h-14 w-14 rounded-full bg-[url('imgs/users/im4.jpg')] bg-cover bg-center"
               ></div>
               <div
-                class="-ml-5 flex items-center justify-center border text-3xl font-normal mx-2 border-gray-500 h-12 w-12 rounded-full border-dashed"
+                class="-ml-5 flex items-center justify-center border text-3xl font-normal mx-2 border-gray-500 h-14 w-14 rounded-full border-dashed"
               >
                 +
               </div>
@@ -129,7 +219,7 @@
                 class="z-10 border border-white h-14 w-14 rounded-full bg-[url('imgs/users/im5.jpg')] bg-cover bg-center"
               ></div>
               <div
-                class="-ml-5 flex items-center justify-center border text-3xl font-normal mx-2 border-gray-500 h-12 w-12 rounded-full border-dashed"
+                class="-ml-5 flex items-center justify-center border text-3xl font-normal mx-2 border-gray-500 h-14 w-14 rounded-full border-dashed"
               >
                 +
               </div>
@@ -158,7 +248,7 @@
                 class="z-10 border border-white h-14 w-14 rounded-full bg-[url('imgs/users/im6.jpg')] bg-cover bg-center"
               ></div>
               <div
-                class="-ml-5 flex items-center justify-center border text-3xl font-normal mx-2 border-gray-500 h-12 w-12 rounded-full border-dashed"
+                class="-ml-5 flex items-center justify-center border text-3xl font-normal mx-2 border-gray-500 h-14 w-14 rounded-full border-dashed"
               >
                 +
               </div>
@@ -182,7 +272,7 @@
                 class="z-10 border border-white h-14 w-14 rounded-full bg-[url('imgs/users/im8.jpg')] bg-cover bg-center"
               ></div>
               <div
-                class="-ml-5 flex items-center justify-center border text-3xl font-normal mx-2 border-gray-500 h-12 w-12 rounded-full border-dashed"
+                class="-ml-5 flex items-center justify-center border text-3xl font-normal mx-2 border-gray-500 h-14 w-14 rounded-full border-dashed"
               >
                 +
               </div>
